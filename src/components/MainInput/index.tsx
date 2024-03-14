@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const MainInput = ({ value, onChange, ...props }) => (
   <div {...props}>
-    <input value={value} onChange={onChange}/>  
+    <input autoFocus value={value} onChange={onChange}/>  
   </div>
 )
 

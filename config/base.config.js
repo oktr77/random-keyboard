@@ -5,9 +5,6 @@ module.exports = {
   name: 'base',
   mode: 'none',
   entry: './src/index.tsx',
-  output: {
-    path: path.join(path.resolve(), 'public'),
-  },
   resolve: {
     modules: [
       'src',
